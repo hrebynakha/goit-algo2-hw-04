@@ -5,6 +5,9 @@ class TrieNode:
         self.children = {}
         self.value = None
 
+    def __str__(self):
+        return "".join(self.children)
+
 
 class Trie:
     """Trie"""
