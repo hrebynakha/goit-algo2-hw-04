@@ -22,3 +22,13 @@ We saw that `E` return no result, so thats mean , that we dont need to use `lowe
 
 ![Practice test](image.png)
 
+## Task 2
+
+### Description
+
+- Insert all word to the trie
+- Iterating every cild node while it has only one child
+- In while loop we set new node to current node and add char to prefix
+- If we found node with value, then we break loop
+- Return prefix
+
